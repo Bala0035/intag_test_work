@@ -1,0 +1,27 @@
+{
+  "name": "Intag",
+  "private": true,
+  "type": "module",
+  "version": "1.0.98",
+  "description": "A basic html example for Intagnpm outdated",
+  "main": "index.html",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "sart":"npx live-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.2",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "rollup": "^3.26.2",
+    "serve": "^14.2.0"
+  },
+  "dependencies": {
+    "stats.js": "^0.17.0",
+    "three": "^0.154.0",
+    "web-ifc": "^0.0.42",
+    "web-ifc-viewer": "^1.0.218"
+  }
+}
